@@ -4,20 +4,16 @@
 @import "tailwindcss/utilities";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
+  --primary: #1a202c;
+  --secondary: #2d3748;
+  --accent: #f56565;
+  --background: #f7fafc;
+  --text: #2d3748;
+  --muted: #718096;
+  --border: #e2e8f0;
+  --code: #f8f8f2;
+  --success: #48bb78;
+  --info: #4299e1;
+  --warning: #ecc94b;
+  --danger: #f56565;
 }
